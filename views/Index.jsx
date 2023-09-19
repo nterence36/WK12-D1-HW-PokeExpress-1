@@ -10,7 +10,7 @@ const myStyle = {
         
           return (
             <div style={myStyle}>
-              <h1>Fruits Index Page</h1>
+              <h1>See All The Pokemon!</h1>
               
             </div>
           );
