@@ -7,11 +7,22 @@ const myStyle = {
 
     class Index extends React.Component {
         render() {
-        
+            const { pokemon } = this.props;
           return (
             <div style={myStyle}>
               <h1>See All The Pokemon!</h1>
-              
+                <ul>
+                    {pokemon.map((pokemon, i) => {
+                        return (
+                        <li>
+                            The <a href={`/pokemon/${i}`}>{pokemon.name}</a> is {pokemon.color}{" "}
+                            <br></br>
+
+                        </li>
+                      )
+                    })}
+                </ul>
+
             </div>
           );
         }

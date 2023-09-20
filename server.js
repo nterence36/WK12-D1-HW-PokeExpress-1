@@ -11,8 +11,9 @@ app.get('/', (req, res) => {
     res.send('Welcome to the Pokemon App!');
 })
 
+// Index route
 app.get('/pokemon', (req, res) => {
-    res.render('Index')
+    res.render('Index', {pokemon:pokemon})
 })
 
 
