@@ -15,7 +15,7 @@ const myStyle = {
                     {pokemon.map((pokemon, i) => {
                         return (
                         <li>
-                            The <a href={`/pokemon/${i}`}>{pokemon.name}</a> is {pokemon.color}{" "}
+                             <a href={`/pokemon/${i}`}>{pokemon.name}</a> {pokemon.color}{" "}
                             <br></br>
 
                         </li>
