@@ -1,7 +1,7 @@
 const React = require("react");
 const myStyle = {
     color: '#ffffff',
-    backgroundColor: '#000000',
+    backgroundColor: '#33FF82',
     };
 
 
@@ -17,7 +17,7 @@ const myStyle = {
                     <img src={pokemon.img + ".jpg"} ></img>
                     <br></br>
                     <br></br>
-                    <a href="/pokemon">Back</a>
+                    <h1><a href="/pokemon">Back</a></h1>
 
             </div>
           );

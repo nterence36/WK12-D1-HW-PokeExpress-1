@@ -1,7 +1,7 @@
 const React = require("react");
 const myStyle = {
     color: '#ffffff',
-    backgroundColor: '#000000',
+    backgroundColor: '#33FF82',
     };
 
 
@@ -14,7 +14,7 @@ const myStyle = {
                 <ul>
                     {pokemon.map((pokemon, i) => {
                         return (
-                        <li>
+                        <li key={i}>
                              <a href={`/pokemon/${i}`}>{pokemon.name}</a> {pokemon.color}{" "}
                             <br></br>
 
