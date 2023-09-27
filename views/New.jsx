@@ -11,7 +11,7 @@ class New extends React.Component {
               <br></br>
               <input type="submit" name="" value="Create Pokemon"/>
             </form>
-        </div>);
+        </div>)
     }
   }
 
